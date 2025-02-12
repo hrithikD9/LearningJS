@@ -13,7 +13,6 @@ Welcome to **LearningJS**! This repository is my personal **JavaScript learning 
 ✅ **Frameworks & Libraries** – React.js, Next.js, Node.js, Express.js  
 ✅ **Real-World Projects** – Mini-projects and problem-solving exercises  
 
-[👉 Detailed List](WHAT_INSIDE.md)
 
 ## 🚀 Learning Progress  
 - [x] JavaScript Basics  
@@ -23,14 +22,13 @@ Welcome to **LearningJS**! This repository is my personal **JavaScript learning 
 - [ ] Node.js & Express.js  
 - [ ] Full-Stack Development  
 
-[👉 Full Progress](PROGRESS.md)
+
 
 ## 🔥 Why This Repo?  
 - **Consistency:** Learning something new every day!  
 - **Practice:** Hands-on coding is the best way to master JS.  
 - **Sharing Knowledge:** Open-source learning for everyone.  
 
-[👉 More Info](WHY_THIS_REPO.md)
 
 ## 🌱 Follow My Journey  
 Feel free to explore, suggest improvements, or fork this repo to start your own learning adventure! 🚀  
@@ -43,7 +41,6 @@ Feel free to explore, suggest improvements, or fork this repo to start your own 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hrithikD9&show_icons=true&theme=radical)  
 ![GitHub Streak](https://streak-stats.demolab.com/?user=hrithikD9&theme=radical)  
 
-[👉 More Stats](GITHUB_STATS.md)
 
 ---
 
@@ -52,7 +49,5 @@ Feel free to explore, suggest improvements, or fork this repo to start your own 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
 
-[👉 Tech Stack Details](TECH_STACK.md)
 
 ---
-
