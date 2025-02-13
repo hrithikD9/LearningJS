@@ -21,7 +21,3 @@ userTwo.email = "abcd@yahoo.com";
 console.log(userOne);
 console.log(userTwo);
 // affect on original value
-
-
-
-
