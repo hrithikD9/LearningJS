@@ -16,7 +16,7 @@ Welcome to **LearningJS**! This repository is my personal **JavaScript learning 
 
 ## 🚀 Learning Progress  
 - [x] JavaScript Basics  
-- [x] ES6+ Features  
+- [ ] ES6+ Features  
 - [ ] DOM Manipulation  
 - [ ] React.js  
 - [ ] Node.js & Express.js  
