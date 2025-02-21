@@ -1,5 +1,5 @@
 const accountId = 93109
-let accountEmail = "hrithikdevnath0924@gmail.com"
+let accountEmail = "hrithik@google.com"
 var accountPassword = "12345"
 accountCity = "Sylhet" // not a good practice
 let accountState;
@@ -14,7 +14,7 @@ prefer not to use var ,
 because of issue in block scope and functional scope
 */
 
-accountEmail = "nimiPriya3112"
+accountEmail = "nimiPriya"
 accountPassword = "5678"
 accountCity = "Dhaka"
 
