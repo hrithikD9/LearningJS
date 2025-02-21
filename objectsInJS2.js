@@ -33,5 +33,3 @@ console.log(Object.values(tinderUser)); // [ '123abc', 'hhh', false ]
 console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'hhh' ], [ 'loggedIN', false ] ]
 
 console.log(tinderUser.hasOwnProperty('isloggedIN'));// false
-
-
