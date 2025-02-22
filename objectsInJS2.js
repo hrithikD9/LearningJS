@@ -45,4 +45,3 @@ const course = {
 // object de-structure
 const {courseInstructor : instructor} = course
 console.log(instructor);
-
