@@ -28,6 +28,7 @@ const cha = () => {
     console.log(this);
 }
 
+// Arrow function :::
 const addTwo = (n1 , n2) => n1 + n2   //( n1 + n2 ) also can be written  // implicit function
 
 console.log(addTwo(3,4));
