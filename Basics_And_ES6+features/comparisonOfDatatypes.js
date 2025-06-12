@@ -5,8 +5,8 @@ console.log(2 < 1);
 console.log(2 == 1);
 console.log(2 != 1);
 
-console.log("2" > 1);  // Not predictable
-console.log("02" > 1);  // This too
+console.log("2" > 1); // Not predictable
+console.log("02" > 1); // This too
 
 console.log(null > 0); // false
 console.log(null == 0); // false // (==) this operators works differently from comparison operators

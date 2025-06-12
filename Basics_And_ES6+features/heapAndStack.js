@@ -6,16 +6,15 @@ anotherOne = "abcd";
 
 console.log(myYoutubeName);
 console.log(anotherOne);
-// doesnt affect to original value because of its just a copy 
-
+// doesnt affect to original value because of its just a copy
 
 // Heap - (Non - Primitive)
 let userOne = {
-    email : "hrithik@google.com",
-    userID : 79
-}
+  email: "hrithik@google.com",
+  userID: 79,
+};
 
-let userTwo = userOne
+let userTwo = userOne;
 userTwo.email = "abcd@yahoo.com";
 
 console.log(userOne);
