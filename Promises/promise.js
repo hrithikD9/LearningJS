@@ -82,3 +82,14 @@ async function fifthPromiseConsumed() {
 }
 
 fifthPromiseConsumed();
+
+
+// Now using FETCH
+
+fetch('https://api.github.com/users/hrithikD9').then((response) =>{
+  return response.json()
+}).then((data) => {
+  console.log(data);
+}).catch((error) => {
+  console.log(error);
+})
