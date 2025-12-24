@@ -1,13 +1,12 @@
 const user = {
-    userName : "Hrithik",
-    class : 11,
+  userName: "Hrithik",
+  class: 11,
 
-    welcomeMessage : function(){
-        console.log(`${this.userName} , Welcome to code`);
-        console.log(this);
-        
-    }
-}
+  welcomeMessage: function () {
+    console.log(`${this.userName} , Welcome to code`);
+    console.log(this);
+  },
+};
 
 user.welcomeMessage();
 user.userName = "yoo";
@@ -15,24 +14,25 @@ user.welcomeMessage();
 
 console.log(this); // {}
 
-function pani(){
-    let userName = "hhh"
-    console.log(this.userName); // undefined , because this cant be use in function except object
+function pani() {
+  let userName = "hhh";
+  console.log(this.userName); // undefined , because this cant be use in function except object
 }
 
-pani()
+pani();
 
+//arrow function syntax
 const cha = () => {
-    let userName = "Hhh"
-    console.log(this.userName);
-    console.log(this);
-}
+  let userName = "Hhh";
+  console.log(this.userName); // undefined , because this cant be use in arrow function except object
+  console.log(this); // {} , because this is not an object
+};
 
 // Arrow function :::
-const addTwo = (n1 , n2) => n1 + n2   //( n1 + n2 ) also can be written  // implicit function
+const addTwo = (n1, n2) => n1 + n2; //( n1 + n2 ) also can be written  // implicit function
 
-console.log(addTwo(3,4));
+console.log(addTwo(3, 4));
 
 // for object
-const add = (n1 , n2) => ({username : "Hrithik"}) // returning an object
-console.log(add(2,4));
+const add = (n1, n2) => ({ username: "Hrithik" }); // returning an object
+console.log(add(2, 4));

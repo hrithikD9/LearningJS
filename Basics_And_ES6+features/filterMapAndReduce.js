@@ -38,8 +38,8 @@ const books = [
 const userBooks = books.filter((bk) => bk.genre === "History");
 const userInterest = books.filter((i) => i.publish > 1995 && i.edition > 2001);
 
-  console.log(userBooks);
-  console.log(userInterest);
+console.log(userBooks);
+console.log(userInterest);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -49,48 +49,43 @@ console.log(x);
 
 // chaining
 const newNum = Nums.map((x) => x * 10)
-                   .map((y) => y + 1)
-                   .filter((z) => z > 50);
+  .map((y) => y + 1)
+  .filter((z) => z > 50);
 
 console.log(newNum);
 
-
-
 // ++++++++++++++++++++++++++ REDUCE ++++++++++++++++++++++++++++++++++++++++++
 
+const ar = [1, 2, 3, 4, 5];
 
-const ar = [1,2,3,4,5]
-
-const total = ar.reduce(function (acc , cv) {
+const total = ar.reduce(function (acc, cv) {
   console.log(`acc ${acc} - cv ${cv}`);
-  return acc + cv
-}, 0)
+  return acc + cv;
+}, 0);
 
 console.log(total); // 15
 
-const myTotal = ar.reduce((acc , cv) => acc + cv , 0)
+const myTotal = ar.reduce((acc, cv) => acc + cv, 0);
 console.log(myTotal);
-
 
 const shoppingCart = [
   {
-      itemName: "js course",
-      price: 2999
+    itemName: "js course",
+    price: 2999,
   },
   {
-      itemName: "py course",
-      price: 999
+    itemName: "py course",
+    price: 999,
   },
   {
-      itemName: "mobile dev course",
-      price: 5999
+    itemName: "mobile dev course",
+    price: 5999,
   },
   {
-      itemName: "data science course",
-      price: 12999
+    itemName: "data science course",
+    price: 12999,
   },
-]
+];
 
-
-const totalPrice = shoppingCart.reduce((acc , item) => (acc + item.price) , 0)
+const totalPrice = shoppingCart.reduce((acc, item) => acc + item.price, 0);
 console.log(totalPrice); // 22996

@@ -1,4 +1,4 @@
-let score = "49hhh"
+let score = "49hhh";
 
 console.log(typeof score);
 
@@ -8,7 +8,7 @@ console.log(valueInNumber);
 
 // "49" => 49
 // "49hhh" => NaN
-// true => 1; 
+// true => 1;
 
 let isLoggedIn = "hgcg";
 booleanLoggedIn = Boolean(isLoggedIn);
@@ -18,8 +18,7 @@ console.log(booleanLoggedIn);
 // "" => false
 // "habsh" => true
 
-let x = 19
+let x = 19;
 let stringNumber = String(x);
 console.log(stringNumber);
 console.log(typeof stringNumber);
-
