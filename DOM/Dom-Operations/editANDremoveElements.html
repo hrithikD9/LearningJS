@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #121212; color: #fff;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    // ----------- approach 1 (Not well optimized) --------------
+    function addlanguage(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(li);
+    }
+
+    addlanguage("Cpp")
+    addlanguage("php")
+
+
+    // --- Approach 2 -- better optimized and recommended
+    function addOptilanguage(langName){
+        const li = document.createElement('li'); // created a list element
+        li.appendChild(document.createTextNode(langName)); // append with li +  langname data
+        document.querySelector('.language').appendChild(li); // Here appending the li in main list
+    }
+
+    addOptilanguage("Golang");
+    addOptilanguage("python");
+ 
+
+    //EDIT
+    const secondLang = document.querySelector("li:nth-child(2)"); // searched for 2nd child
+    const newli = document.createElement('li'); // created a new list
+    newli.textContent = "java"; //  added text to new list
+    secondLang.replaceWith(newli); // replaced the 2nd child with new list
+
+
+    // Remove
+    const lastlang = document.querySelector("li:last-child"); // searched for last child
+    lastlang.remove(); // removed the last child
+
+</script>
+</html>

@@ -66,7 +66,7 @@ function printMe(item){
     console.log(item);
 }
 
-pro.forEach(printMe) // passiing reference not executing printMe()
+pro.forEach(printMe) // passing reference not executing printMe()
 
 pro.forEach( (item , index , arr) => {
     console.log((item , index , arr));
@@ -74,12 +74,12 @@ pro.forEach( (item , index , arr) => {
 
 const myCoding = [
     {
-        languageName : "js",
-        languageFileName : "jjss"
+        languageName : "javascript",
+        languageFileName : "js"
     },
     {
         languageName : "java",
-        languageFileName : "jaavaa"
+        languageFileName : "javaC"
     },
     {
         languageName : "python",
