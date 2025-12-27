@@ -6,7 +6,7 @@
     <title>DOM | Chai aur Code</title>
   </head>
   <body style="background-color: #212121; color: #fff">
-    <div class="parent">
+    <div id = "fdiv" class="parent">
       <div class="day">Monday</div>
       <div class="day">Tuesday</div>
       <div class="day">Wednesday</div>
@@ -29,5 +29,29 @@
 
     const dayOne = document.querySelector(".day");
     console.log(dayOne);
+
+    const allDay = document.querySelectorAll(".day");
+    console.log(allDay);
+
+
+    const myDiv = document.querySelector("#fdiv")
+    const newElement = document.createElement('div');
+    newElement.classList.add("day");
+
+    newElement.textContent = "Friday";
+
+    myDiv.insertAdjacentElement("afterbegin" , newElement); // added new element position
+    console.log(newElement)
   </script>
 </html>
+
+
+<!--
+const newDay = document.createElement('div'); // created new element
+newDay.textContent = "Friday"; // updated the content of newly created element
+newDay.classList.add('day'); // updated the class of newly added element
+
+const divTag = document.querySelector('.parent'); // searched for parent class
+divTag.appendChild(newDay); // added the new element into parent class as a child
+
+-->

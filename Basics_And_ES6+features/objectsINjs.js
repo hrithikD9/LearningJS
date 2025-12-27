@@ -27,3 +27,5 @@ JsUser.greetings = function () {
 };
 
 console.log(JsUser.greetings());
+
+// What is shallow copy ? Deep Copy ?
