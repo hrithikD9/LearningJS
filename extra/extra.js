@@ -65,3 +65,21 @@
 // console.log(obj.name);
 
 // obj.walking()
+
+// let findClick = document.querySelector("#fanchor");
+
+// findClick.addEventListener("click", function (event) {
+//   event.preventDefault();
+//   findClick.textContent = "Hehe";
+// });
+
+function showTheValue(event) {
+  alert(event.target.textContent);
+}
+
+let allP = document.querySelectorAll("p");
+
+for (let i = 0; i < allP.length; i++) {
+  let c = allP[i];
+  c.addEventListener("click", showTheValue);
+}

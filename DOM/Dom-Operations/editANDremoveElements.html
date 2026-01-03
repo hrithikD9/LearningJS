@@ -11,7 +11,7 @@
     </ul>
 </body>
 <script>
-    // ----------- approach 1 (Not well optimized) --------------
+    // ----------- approach 1 (Not well optimized) -------------- String → HTML Parser → DOM Nodes → Insert
     function addlanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`;
@@ -22,7 +22,7 @@
     addlanguage("php")
 
 
-    // --- Approach 2 -- better optimized and recommended
+    // --- Approach 2 -- better optimized and recommended - DOM Node → DOM Tree → Insert
     function addOptilanguage(langName){
         const li = document.createElement('li'); // created a list element
         li.appendChild(document.createTextNode(langName)); // append with li +  langname data
@@ -31,6 +31,9 @@
 
     addOptilanguage("Golang");
     addOptilanguage("python");
+
+    // If data is text → use createTextNode
+    // If data is markup → use innerHTML carefully
  
 
     //EDIT
