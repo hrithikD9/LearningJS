@@ -73,13 +73,23 @@
 //   findClick.textContent = "Hehe";
 // });
 
-function showTheValue(event) {
-  alert(event.target.textContent);
-}
+// function showTheValue(event) {
+//   alert(event.target.textContent);
+// }
 
-let allP = document.querySelectorAll("p");
+// let allP = document.querySelectorAll("p");
 
-for (let i = 0; i < allP.length; i++) {
-  let c = allP[i];
-  c.addEventListener("click", showTheValue);
-}
+// for (let i = 0; i < allP.length; i++) {
+//   let c = allP[i];
+//   c.addEventListener("click", showTheValue);
+// }
+
+console.log("Hrithik1");
+
+let firstPromise = new Promise((resolve, reject) => {
+  setTimeout(function sayMyName() {
+    console.log("Hey i am Hrithik");
+  }, 10000);
+});
+
+console.log("Hrithik2");
