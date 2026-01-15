@@ -5,6 +5,19 @@ const allCol = [todo, progress, done];
 let dropTask = null;
 let taskData = {};
 
+function checkUserName() {
+  const uName = localStorage.getItem("username");
+  const name = document.querySelector("#username");
+
+  if (!uName) {
+    const username = prompt("Enter your name");
+    localStorage.setItem("username", username);
+    name.innerText = username;
+  } else {
+    name.innerText = uName;
+  }
+}
+
 function addTask(title, desc, column) {
   const div = document.createElement("div");
   div.classList.add("task");

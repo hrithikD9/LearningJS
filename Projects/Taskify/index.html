@@ -6,10 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="checkUserName()">
     <main>
       <nav>
         <div class="left">Taskify</div>
+        <div class="middle">
+          <h1 id="username">name</h1>
+        </div>
         <div class="right">
           <button id="toggle-modal">Add New Task</button>
         </div>
